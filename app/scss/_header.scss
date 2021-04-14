@@ -1,0 +1,82 @@
+.header {
+    margin-left: 0;
+    border-radius: 0 0 0 83px;
+    height: 32.75rem;
+    background-image: url("images/bg-pattern-intro.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 32.75rem;
+    background: linear-gradient($Verylightred, $Lightred);
+
+    &__logo {
+        color: $White;
+        height: 30;
+        width: 72;
+        font-size: 25px;
+        text-decoration: none;
+    }
+
+    nav {
+        height: 35px;
+        padding-top: 44px;
+        padding-left: 22px;
+        padding-right: 22px;
+        border-radius: 50px;
+    }
+    &__links2 {
+        button,
+        button {
+            padding: 1rem, 2.8125;
+        }
+    }
+
+    &__hamburger {
+        > span {
+            display: block;
+            height: 2px;
+            width: 25px;
+            background-color: $White;
+
+            &:not(:last-child) {
+                margin-bottom: 3px;
+            }
+        }
+    }
+
+    &__intro {
+        width: 100%;
+        display: block;
+        color: $White;
+        padding: 100px 30px 219px 30px;
+        text-align: center;
+        font-size: 15px;
+        font-family: "Overpass", "sans-serif";
+        button,
+        button {
+            border-radius: 50px;
+            padding: 1rem 0.875rem;
+            font-weight: 600;
+            color: $White;
+            border-color: $White;
+            background-color: transparent;
+
+            &:not(:last-child) {
+                background-color: $White;
+                margin-right: 0.875rem;
+                color: $Lightred;
+                border: 0;
+            }
+        }
+    }
+    &__links2 {
+        button,
+        button {
+            border-radius: 3.125rem;
+            padding: 1rem 2.4rem;
+            border: 0;
+            color: $Lightred;
+            font-weight: 600;
+        }
+    }
+}

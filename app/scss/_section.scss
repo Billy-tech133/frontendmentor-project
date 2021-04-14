@@ -1,0 +1,35 @@
+.hero {
+    h1 {
+        text-align: center;
+        padding-top: 5.5rem;
+        font-size: 25px;
+        color: $Verydarkgrayisblue;
+        font-family: 'Overpass', 'sans-serif';
+    }
+    &__image {
+        max-width: 100%;
+        height: auto;
+        //padding-top: 2.18rem;
+        //padding-bottom: 2.56rem;
+    }
+    &__text {
+        h2 {
+            color: $Verydarkgrayisblue;
+            font-family: 'Overpass', 'sans-serif';
+            text-align: center;
+            font-size: 1.5rem;
+            padding-right: 4.06rem;
+            padding-left: 4.06rem;
+        }
+        p {
+            color: $Verydarkgrayisblue;
+            text-align: center;
+            font-size: 0.87rem;
+            line-height: -0.5rem;
+            font-family: 'Overpass', 'sans-serif';
+            padding-left: 1.62rem;
+            padding-right: 1.62rem;
+        }
+        
+    }
+}
